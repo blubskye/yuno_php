@@ -1,0 +1,13 @@
+{
+    "discord.token": "YOUR_DISCORD_BOT_TOKEN",
+    "default-prefix": "?",
+    "master-users": ["YOUR_USER_ID"],
+    "database": "Leveling/main.db",
+    "database.pragmas": {
+        "walMode": true,
+        "performanceMode": false,
+        "cacheSize": null,
+        "memoryTemp": false,
+        "mmapSize": null
+    }
+}

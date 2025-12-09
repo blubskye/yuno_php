@@ -1,0 +1,42 @@
+{
+    "discord.token": "<empty>",
+
+    "logging.hidden-groups": [],
+    "logging.show-time": true,
+    "logging.group-colors": {},
+
+    "commands.master-users": [],
+    "commands.default-prefix": ".",
+
+    "ban.default-image": "https://i.imgur.com/vrEDCui.gif",
+
+    "errors.dropon": {
+        "guild": "",
+        "channel": ""
+    },
+    "errors.mentionwhencrash": [],
+
+    "database": "yuno-2-database.db",
+
+    "database.password": null,
+
+    "database.pragmas": {
+        "walMode": false,
+        "performanceMode": false,
+        "cacheSize": null,
+        "memoryTemp": false,
+        "mmapSize": null
+    },
+
+    "debug.work-only-on-guild": "",
+
+    "chat.dm": "I'm just a bot :'(",
+
+    "chat.insufficient-permissions": ":negative_squared_cross_mark: ${author} You don't have enough permissions to execute this command",
+
+    "spam.max-warnings": 3,
+
+    "chat.exppermsg": 20,
+
+    "discord.presence": null
+}
