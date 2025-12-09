@@ -44,9 +44,9 @@ class Source extends BaseCommand
               ->addFieldValues('Original Author', 'Maeeen', true)
               ->addFieldValues('License', 'AGPL-3.0', true)
               ->addFieldValues('Version', $yuno->version, true)
-              ->addFieldValues('Original Repository', '[GitHub](https://github.com/Maeeen/yuno-gasai-2)')
+              ->addFieldValues('PHP Repository', '[GitHub](https://github.com/blubskye/yuno_php)')
               ->addFieldValues('Technologies', 'PHP 8.1+, DiscordPHP, SQLite')
-              ->setFooter("Made with ♥ by Maeeen")
+              ->setFooter("Made with ♥ by Maeeen & blubskye")
               ->setTimestamp();
 
         $builder = MessageBuilder::new()->addEmbed($embed);
@@ -58,7 +58,7 @@ class Source extends BaseCommand
         $yuno->prompt->info("Yuno Gasai v{$yuno->version}");
         $yuno->prompt->info("Original Author: Maeeen");
         $yuno->prompt->info("License: AGPL-3.0");
-        $yuno->prompt->info("Repository: https://github.com/Maeeen/yuno-gasai-2");
+        $yuno->prompt->info("Repository: https://github.com/blubskye/yuno_php");
     }
 
     public function getAbout(): array
